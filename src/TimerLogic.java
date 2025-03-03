@@ -31,6 +31,8 @@ public class TimerLogic {
             mainTimer = new Timer();
             mainSeconds.set(0);
 
+            // some comment
+
             mainTimer.scheduleAtFixedRate(new TimerTask() {
                 @Override
                 public void run() {
